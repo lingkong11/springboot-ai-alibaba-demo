@@ -1,0 +1,14 @@
+server:
+  port: 11001
+
+spring:
+  application:
+    name: spring-ai-alibaba-chat
+
+  ai:
+    dashscope:
+      api-key: sk-d7dd4b4448c3454a943436bcc3ae5ae9
+      base-url: https://dashscope.aliyuncs.com/compatible-mode
+      chat:
+        options:
+          model: qwen-max
